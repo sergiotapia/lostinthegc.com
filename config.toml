@@ -3,19 +3,13 @@ googleAnalytics = "Your tracking code"
 
 baseURL = "https://sergiodev.netlify.com/"
 languageCode = "en-us"
-title = "Sergio Tapia Personal Blog"
+title = "Sergio Tapia"
 paginate = 15
 
 [params]
-  layoutReverse = true
+  layoutReverse = false
   author = "Sergio Tapia"
-  description = "Lead / Senior Software Engineer Elixir | Rails | React | Javascript | I work out of Miami, USA with startups and mid-size companies to get their product off the ground. Send me an email if you want to meet up or hop on a call."
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/sergiotapia"
-  [[params.social]]
-    name = "send"
-    url = "mailto:sergiotapia@outlook.com"
+  description = "Writing about Elixir, Scalability, Team Growth and Management. Director of Engineering @ Papa. sergiotapia<at>outlook.com"
 
 
 
