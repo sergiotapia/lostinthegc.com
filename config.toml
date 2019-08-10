@@ -1,7 +1,7 @@
 theme = "hyde"
 googleAnalytics = "Your tracking code"
 
-baseURL = "https://sergiodev.netlify.com/"
+baseURL = "https://sergio.dev/"
 languageCode = "en-us"
 title = "Sergio Tapia"
 paginate = 15
