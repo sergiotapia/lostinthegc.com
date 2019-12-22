@@ -1,5 +1,5 @@
 theme = "hyde"
-googleAnalytics = "Your tracking code"
+googleAnalytics = "UA-154849727-1"
 
 baseURL = "https://sergio.dev/"
 languageCode = "en-us"
