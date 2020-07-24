@@ -5,6 +5,9 @@ date: 2020-07-23T11:49:00-04:00
 
 Here's how you can easily build a web crawler with Nim.
 
+> To see a full real example, you can review how I wrote Torrentinim,
+> leave a star if you learn something from it! https://github.com/sergiotapia/torrentinim
+
 Let's create a simple type called `Torrent` to keep the data we crawl in
 a nice object.
 
