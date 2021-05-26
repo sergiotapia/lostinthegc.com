@@ -9,7 +9,7 @@ paginate = 15
 [params]
   layoutReverse = false
   author = "Sergio Tapia"
-  description = "Writing about Elixir, Nim, building teams. Director of Engineering at Papa. Get in touch: yeyo@hey.com"
+  description = "Writing about Elixir, Nim and empowering engineering teams to do great things. VP of Engineering at Papa."
 
 
 
