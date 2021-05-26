@@ -22,7 +22,7 @@ Given the following JSON, how can you parse it into a nice array to work with in
         }
     }
 ]
-{{< /headlight >}}
+{{< /highlight >}}
 
 It's pretty easy, first let's start by creating the types to marshal the json into.
 
@@ -36,7 +36,7 @@ type
   Person* = object
     name*: Option[string]
     favoriteMovie*: Option[Movie]
-{{< /headlight >}}
+{{< /highlight >}}
 
 Then it's just a matter of parsing the json and using the `to` function to marshal into a `seq[Person]`.
 
@@ -76,10 +76,10 @@ let responseJson = """
 let parsedJson = parseJson(responseJson)
 let list = parsedJson.to(seq[Person])
 echo $list
-{{< /headlight >}}
+{{< /highlight >}}
 
 The output you'll see is as expected.
 
 {{< highlight bash >}}
 @[(name: Some("Sergio"), favoriteMovie: Some((title: Some("Taxi Driver"), releaseYear: Some(1976)))), (name: Some("Daniel"), favoriteMovie: Some((title: Some("Frozen"), releaseYear: Some(2013))))]
-{{< /headlight >}}
+{{< /highlight >}}
